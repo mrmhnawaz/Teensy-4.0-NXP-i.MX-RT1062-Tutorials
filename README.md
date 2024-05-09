@@ -58,3 +58,7 @@ Resources:
 Teensy Website https://www.pjrc.com/store/teensy40.html
 Teensyduino Add-On for Arduino IDE
 Teensy Forum
+
+Contributors:
+Mohammed Hussain Nawaz: https://github.com/mrmhnawaz
+
