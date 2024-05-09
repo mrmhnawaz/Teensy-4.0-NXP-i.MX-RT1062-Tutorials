@@ -1,0 +1,16 @@
+///LED Blinking For Teensy 4.0
+
+const int ledPin = 13; // Define the pin for the onboard LED
+
+void setup() {
+  // Initialize the onboard LED pin as an output
+  pinMode(ledPin, OUTPUT);
+}
+
+void loop() {
+  // Blink the onboard LED for 1 second
+  digitalWrite(ledPin, HIGH); // Turn the LED on
+  delay(1000); // Wait for 1 second
+  digitalWrite(ledPin, LOW); // Turn the LED off
+  delay(1000); // Wait for 1 second before blinking again
+}
